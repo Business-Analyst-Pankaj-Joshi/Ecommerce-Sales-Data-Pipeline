@@ -23,7 +23,7 @@ I migrated the dataset into **SQL Server Management Studio (SSMS)**.
 * Optimized data types and ensured referential integrity.
 * **Why?** This mimics real-world enterprise environments where data is pulled from a live server.
 
-![SQL Setup](Screenshot/Screenshot%202025-12-18%20110904.png)
+![SQL Setup](./Screenshort/Screenshot%202025-12-18%20110904.png)
 
 ### 2. Data Modeling (Star Schema)
 In Power BI, I designed a **Star Schema** to optimize query performance.
@@ -31,19 +31,18 @@ In Power BI, I designed a **Star Schema** to optimize query performance.
 * **Dimension Tables:** `calender` and `us_state_long_lat`.
 * **Relationship:** Established 1-to-many relationships for seamless cross-filtering.
 
-![Data Model](./Screenshot/Screenshot%202025-12-18%20112134.png)
+![Data Model](./Screenshort/Screenshot%202025-12-18%20112134.png)
 
 ### 3. Advanced DAX Calculations
 All measures are organized in a dedicated `_All_Measures` table. 
 * **Metrics:** `PYTD Sales`, `YOY Profit Margin`, and `Dynamic Formatting` measures for KPIs.
 
-![Measures Table](./Screenshot/Screenshot%202025-12-18%20115309.png)
+![Measures Table](./Screenshort/Screenshot%202025-12-18%20115309.png)
 
 ---
 
 ## 📊 Final Interactive Dashboard
-![Final Dashboard](./Screenshot/Screenshot%202025-12-16%20123141.jpg)
-
+![Final Dashboard](./Screenshort/Screenshot%202025-12-16%20123141.png)
 
 ---
 
