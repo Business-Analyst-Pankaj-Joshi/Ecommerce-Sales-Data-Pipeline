@@ -31,18 +31,18 @@ In Power BI, I designed a **Star Schema** to optimize query performance.
 * **Dimension Tables:** `calender` and `us_state_long_lat`.
 * **Relationship:** Established 1-to-many relationships for seamless cross-filtering.
 
-![Data Model](Screenshot/Screenshot%202025-12-18%20112134.png)
+![Data Model](./Screenshot/Screenshot%202025-12-18%20112134.png)
 
 ### 3. Advanced DAX Calculations
 All measures are organized in a dedicated `_All_Measures` table. 
 * **Metrics:** `PYTD Sales`, `YOY Profit Margin`, and `Dynamic Formatting` measures for KPIs.
 
-![Measures Table](Screenshot/Screenshot%202025-12-18%20115309.png)
+![Measures Table](./Screenshot/Screenshot%202025-12-18%20115309.png)
 
 ---
 
 ## 📊 Final Interactive Dashboard
-![Final Dashboard](Screenshot/Screenshot%202025-12-16%20123141.jpg)
+![Final Dashboard](./Screenshot/Screenshot%202025-12-16%20123141.jpg)
 
 
 ---
