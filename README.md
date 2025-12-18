@@ -53,8 +53,8 @@ To view the technical work behind this dashboard, you can access the files below
 | File Type | Description | Link |
 | :--- | :--- | :--- |
 | **SQL Script** | Full Database Setup & Schema | [📄 View SQL Script](./Database_setup.zip) |
-| **Power BI** | Interactive Dashboard (.pbix) | [📊 Download PBIX](./e-commerce dasboard.zip) |
-| **Raw Data** | Original Excel Dataset | [📁 View Raw Data](./Raw file/Raw_Sales_Data.xlsx) |
+| **Power BI** | Interactive Dashboard (.pbix) | [📊 Download PBIX](./e-commerce_dasboard.zip) |
+| **Raw Data** | Original Excel Dataset | [📁 View Raw Data](./Raw_file/Raw_Sales_Data.xlsx) |
 
 ---
 
