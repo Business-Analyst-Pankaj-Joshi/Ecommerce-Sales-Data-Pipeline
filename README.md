@@ -23,7 +23,7 @@ I migrated the dataset into **SQL Server Management Studio (SSMS)**.
 * Optimized data types and ensured referential integrity.
 * **Why?** This mimics real-world enterprise environments where data is pulled from a live server.
 
-![SQL Setup](04-Screenshots/Screenshot%202025-12-18%20110904.png)
+![SQL Setup](Screenshot/Screenshot%202025-12-18%20110904.png)
 
 ### 2. Data Modeling (Star Schema)
 In Power BI, I designed a **Star Schema** to optimize query performance.
@@ -31,18 +31,18 @@ In Power BI, I designed a **Star Schema** to optimize query performance.
 * **Dimension Tables:** `calender` and `us_state_long_lat`.
 * **Relationship:** Established 1-to-many relationships for seamless cross-filtering.
 
-![Data Model](04-Screenshots/Screenshot%202025-12-18%20112134.png)
+![Data Model](Screenshot/Screenshot%202025-12-18%20112134.png)
 
 ### 3. Advanced DAX Calculations
 All measures are organized in a dedicated `_All_Measures` table. 
 * **Metrics:** `PYTD Sales`, `YOY Profit Margin`, and `Dynamic Formatting` measures for KPIs.
 
-![Measures Table](04-Screenshots/Screenshot%202025-12-18%20115309.png)
+![Measures Table](Screenshot/Screenshot%202025-12-18%20115309.png)
 
 ---
 
 ## 📊 Final Interactive Dashboard
-![Final Dashboard](04-Screenshots/Screenshot%202025-12-16%20123141.jpg)
+![Final Dashboard](Screenshot/Screenshot%202025-12-16%20123141.jpg)
 
 
 ---
@@ -52,9 +52,9 @@ To view the technical work behind this dashboard, you can access the files below
 
 | File Type | Description | Link |
 | :--- | :--- | :--- |
-| **SQL Script** | Full Database Setup & Schema | [📄 View SQL Script](./02-SQL-Scripts/E-Commerce_Database_Setup.sql) |
-| **Power BI** | Interactive Dashboard (.pbix) | [📊 Download PBIX](./03-PowerBI-Report/E-Commerce_Sales_Dashboard.pbix) |
-| **Raw Data** | Original Excel Dataset | [📁 View Raw Data](./01-Raw-Data/Raw_Sales_Data.xlsx) |
+| **SQL Script** | Full Database Setup & Schema | [📄 View SQL Script](./Database_setup.zip) |
+| **Power BI** | Interactive Dashboard (.pbix) | [📊 Download PBIX](./e-commerce dasboard.zip) |
+| **Raw Data** | Original Excel Dataset | [📁 View Raw Data](./Raw file/Raw_Sales_Data.xlsx) |
 
 ---
 
